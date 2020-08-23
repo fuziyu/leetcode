@@ -1,6 +1,5 @@
 class Solution-376 {
-    // 最长摆动子序列
-	public int wiggleMaxLength(int[] nums) {
+    public int wiggleMaxLength(int[] nums) {
         int m = nums.length;
         if(m < 2) return m;
         int[] diff = new int[m-1];
